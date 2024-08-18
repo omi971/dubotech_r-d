@@ -10,7 +10,7 @@ pygame.joystick.init()
 
 # Setup the serial connection to Arduino
 # Make sure to replace 'COM3' with your Arduino's serial port and set the correct baud rate.
-arduino = serial.Serial('COM4', 9600, timeout=1)
+arduino = serial.Serial('COM3', 9600, timeout=1)
 time.sleep(2)  # Give some time to establish the connection
 
 # Define the control mappings
