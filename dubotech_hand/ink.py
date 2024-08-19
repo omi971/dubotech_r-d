@@ -29,10 +29,13 @@ current_value = 1
 # Define the button mappings
 button_x = 2  # X button (Gripper )
 button_y = 3  # B button (Gripper )
+
 button_b = 1  # A button (Up Jabe)
 button_a = 0  # A button (Down Jabe)
+
 left = 4 # LB Button (Left Turn)
 right = 5 # RB Button (Right Turn)
+
 l_stick_in = 6 # Start Button CW
 r_stick_in = 7 # Back Button CCW
 
