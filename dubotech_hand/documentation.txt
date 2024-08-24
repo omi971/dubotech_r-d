@@ -1,0 +1,38 @@
+!!! There are 4 Program Files
+
+*** Full Arm Control --> Arm_dubotech [Test Code]
+Left-ARM i2c address --> (0x40)
+Right-ARM i2c address --> (0x41)
+comment: gripper ee problem ase!!
+
+*** Arm DC Motor --> arm_motor_move [Test Code]
+// Left Motor Pin Initial
+int in1 = 10;
+int in2 = 11;
+
+// Right Motor Pin Initial
+int in3 = 12;
+int in4 = 13;
+
+*** 4 Yellow Dc Motor --> external_motor_move [Test Code]
+// L1
+int in1 = 2;
+int in2 = 3;
+
+//L2
+int in3 = 4;
+int in4 = 5;
+
+//R1
+int in5 = 6;
+int in6 = 7;
+
+//R2
+int in7 = 8;
+int in8 = 9;
+
+***4 Sharp Sensor [Test Code]
+#define l1_sharp A0
+#define r1_sharp A1
+#define l2_sharp A2 // Ektu Problem ase maybe sensor or wiring ee
+#define r2_sharp A3
